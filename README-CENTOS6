@@ -1,0 +1,5 @@
+To compile libmysql_udf_sys.so on CentOS 6 x86_64 you'll need this line:
+
+gcc -fPIC -Wall -I/usr/include/mysql -I. -shared lib_mysqludf_sys.c -o /usr/lib64/mysql/plugin/lib_mysqludf_sys.so
+
+As per my post: https://plus.google.com/117561367404774597588/posts/cg8YfBMsc8v
